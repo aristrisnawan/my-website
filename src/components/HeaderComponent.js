@@ -1,6 +1,7 @@
 import React from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import { Disclosure, Transition } from "@headlessui/react";
+import aris from "../images/aris.png";
 
 export default function HeaderComponent() {
   return (
@@ -57,6 +58,27 @@ export default function HeaderComponent() {
               </>
             )}
           </Disclosure>
+        </div>
+        {/* Header for tablet and laptop */}
+        <div className="w-full px-20 py-5 justify-between tablet:block laptop:block mobile:hidden">
+          <div className="flex flex-row  justify-between">
+            <div
+              className=" w-9 h-9 bg-slate-50 rounded-full bg-no-repeat bg-center my-auto"
+              style={{ backgroundImage: `url(${aris})` }}
+            ></div>
+            <div className="flex flex-row tablet:gap-8 desktop:gap-10 text-gray-400">
+              <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
+                Home
+              </p>
+              <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
+                About
+              </p>
+              <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
+                Projects
+              </p>
+            </div>
+            {/* <div className=" w-7 h-7 my-auto rounded-full"></div> */}
+          </div>
         </div>
       </div>
     </div>
