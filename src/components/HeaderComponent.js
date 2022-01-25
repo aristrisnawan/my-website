@@ -11,7 +11,7 @@ export default function HeaderComponent() {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="p-4 flex flex-row justify-between w-full">
+                <Disclosure.Button className="py-4 flex flex-row justify-between w-full">
                   <div className="w-9 h-9 rounded-full bg-gray-600"></div>
                   <div>
                     {open ? (
@@ -30,7 +30,7 @@ export default function HeaderComponent() {
                   leaveTo="transform scale-95 opacity-0"
                 >
                   <Disclosure.Panel className="text-black">
-                    <div className="mx-0 w-full bg-gray-300 opacity-75 px-4 flex flex-col h-screen absolute">
+                    <div className="mx-0 w-full bg-gray-300 opacity-90 px-4 flex flex-col h-full absolute z-10">
                       <div>
                         <Disclosure.Button className="w-full">
                           <p className="font-bold text-3xl py-4 float-left">
@@ -60,7 +60,7 @@ export default function HeaderComponent() {
           </Disclosure>
         </div>
         {/* Header for tablet and laptop */}
-        <div className="w-full px-20 py-5 justify-between tablet:block laptop:block mobile:hidden">
+        <div className="w-full py-5 justify-between tablet:block laptop:block mobile:hidden">
           <div className="flex flex-row  justify-between">
             <div
               className=" w-9 h-9 bg-slate-50 rounded-full bg-no-repeat bg-center my-auto"
