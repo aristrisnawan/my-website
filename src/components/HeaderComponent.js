@@ -2,6 +2,7 @@ import React from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import { Disclosure, Transition } from "@headlessui/react";
 import aris from "../images/aris.png";
+import { Link } from "react-router-dom";
 
 export default function HeaderComponent() {
   return (
@@ -34,14 +35,14 @@ export default function HeaderComponent() {
                       <div>
                         <Disclosure.Button className="w-full">
                           <p className="font-bold text-3xl py-4 float-left">
-                            Home
+                            <Link to="/home">Home</Link>
                           </p>
                         </Disclosure.Button>
                       </div>
                       <div>
                         <Disclosure.Button className="w-full">
                           <p className="font-bold text-3xl py-4 float-left">
-                            Projects
+                            <Link to="/about">About</Link>
                           </p>
                         </Disclosure.Button>
                       </div>
@@ -68,10 +69,10 @@ export default function HeaderComponent() {
             ></div>
             <div className="flex flex-row tablet:gap-8 desktop:gap-10 text-gray-400">
               <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
-                Home
+                <Link to="/home">Home</Link>
               </p>
               <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
-                About
+                <Link to="/about">About</Link>
               </p>
               <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
                 Projects
