@@ -49,7 +49,7 @@ export default function HeaderComponent() {
                       <div>
                         <Disclosure.Button className="w-full">
                           <p className="font-bold text-3xl py-4 float-left">
-                            About
+                            <Link to="/Project">Projects</Link>
                           </p>
                         </Disclosure.Button>
                       </div>
@@ -75,7 +75,7 @@ export default function HeaderComponent() {
                 <Link to="/about">About</Link>
               </p>
               <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
-                Projects
+                <Link to="/Project">Projects</Link>
               </p>
             </div>
             {/* <div className=" w-7 h-7 my-auto rounded-full"></div> */}

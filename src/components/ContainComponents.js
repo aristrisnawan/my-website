@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import aris from "../images/aris.png";
 
 export default function ContainComponents() {
@@ -30,9 +31,12 @@ export function BannerComponents() {
               </p>
             </div>
             <div className=" py-4 text-white">
-              <button className="cursor-pointer py-2 px-2 bg-green-500 drop-shadow-lg rounded-lg">
+              <Link
+                to="/about"
+                className="cursor-pointer py-2 px-2 bg-gradient-to-tr from-green-600 to-green-400 drop-shadow-lg rounded-lg hover:drop-shadow-xl"
+              >
                 More About Me
-              </button>
+              </Link>
             </div>
           </div>
           <div className="mobile:hidden tablet:hidden laptop:block desktop:block my-auto">
