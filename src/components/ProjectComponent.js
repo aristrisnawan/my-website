@@ -117,11 +117,7 @@ export function PortofolioComponent() {
                     <div
                       className="mobile:w-full mobile:h-40 bg-cover hover:contrast-100 flex"
                       style={{ backgroundImage: `url(${items.gambar})` }}
-                    >
-                      <p className="my-auto mx-auto p-5 hover:opacity-100 opacity-50">
-                        Mata
-                      </p>
-                    </div>
+                    ></div>
                     <div>
                       <p className="mobile:mx-1 laptop:mx-3 laptop:mt-5 font-semibold">
                         {items.nama}

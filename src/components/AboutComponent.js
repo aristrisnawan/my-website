@@ -29,10 +29,9 @@ export function ProfileComponent() {
             the city of Ciamis August 25, 1998.
           </p>
           <p className="py-2">
-            I am a frontend developer, currently I work at Telkom University as
-            a frontend developer. I'm currently learning a library from
-            javascript, namely reactJs and also a framework from css, namely
-            TailwindCSS.
+            I am a frontend developer, currently I am a freelance as a frontend
+            developer. I'm currently learning a library from javascript, namely
+            reactJs and also a framework from css, namely TailwindCSS.
           </p>
           <p>
             I am a graduate of telkom university in 2021 and I got a cum laude
@@ -67,7 +66,7 @@ export function ExperienceComponent() {
             <p>Telkom University</p>
           </div>
           <div>
-            <p>Frontend Developer 2021-Now</p>
+            <p>Frontend Developer 2021 -</p>
           </div>
         </div>
         <div className="flex flex-row justify-between pb-3 text-lg">

@@ -13,7 +13,7 @@ export default function HeaderComponent() {
             {({ open }) => (
               <>
                 <Disclosure.Button className="py-4 flex flex-row justify-between w-full">
-                  <div className="w-9 h-9 rounded-full bg-gray-600"></div>
+                  <div className="w-9 h-9 rounded-full bg-green-600"></div>
                   <div>
                     {open ? (
                       <XIcon className=" w-9 " />
@@ -63,10 +63,7 @@ export default function HeaderComponent() {
         {/* Header for tablet and laptop */}
         <div className="w-full py-5 justify-between tablet:block laptop:block mobile:hidden">
           <div className="flex flex-row  justify-between">
-            <div
-              className=" w-9 h-9 bg-slate-50 rounded-full bg-no-repeat bg-center my-auto"
-              style={{ backgroundImage: `url(${aris})` }}
-            ></div>
+            <div className=" w-9 h-9 bg-green-600 rounded-full my-auto"></div>
             <div className="flex flex-row tablet:gap-8 desktop:gap-10 text-gray-400">
               <p className=" hover:bg-gray-200 hover:rounded-md tablet:p-2 dekstop:p-4 text-xl font-medium cursor-pointer">
                 <Link to="/home">Home</Link>
