@@ -69,12 +69,12 @@ export function DoingComponents() {
           </div>
           <div className="mobile w-full mobile:h-20 tablet:h-20 laptop:h-28 rounded-xl mx-auto  mt-5 bg-gradient-to-r p-[6px] from-[#eddb11] via-[#378076] to-[#4668a3] cursor-pointer hover:scale-105">
             <div className="flex flex-col justify-between h-full bg-white rounded-lg p-4">
-              <p className="my-auto text-lg font-medium">Jogging</p>
+              <p className="my-auto text-lg font-medium">Design</p>
             </div>
           </div>
           <div className="mobile w-full mobile:h-20 tablet:h-20 laptop:h-28 rounded-xl mx-auto  mt-5 bg-gradient-to-r p-[6px] from-[#12b509] via-[#031452] to-[#870f5b] cursor-pointer hover:scale-105">
             <div className="flex flex-col justify-between h-full bg-white rounded-lg p-4">
-              <p className="my-auto text-lg font-medium">Waching Film</p>
+              <p className="my-auto text-lg font-medium">Coding</p>
             </div>
           </div>
         </div>
