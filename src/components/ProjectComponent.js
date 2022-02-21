@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import tasty from "../images/tasty.PNG";
 import workout from "../images/workout.PNG";
-import quran from "../images/quran.PNG";
+import shop from "../images/shop.PNG";
 import cardlist from "../images/cardlist.PNG";
 import restaurant from "../images/restaurant.PNG";
 
@@ -57,9 +57,9 @@ export function PortofolioComponent() {
       },
       {
         id: 3,
-        nama: "Alquran Web",
-        gambar: `${quran}`,
-        url: "https://quran-web-zeta.vercel.app/",
+        nama: "Online Shop Landing Page",
+        gambar: `${shop}`,
+        url: "https://online-shop-zeta.vercel.app/",
         tools: [
           {
             id: 1,
