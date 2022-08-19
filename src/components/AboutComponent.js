@@ -1,6 +1,6 @@
-import React from "react";
-import aris from "../images/aris.png";
-import cv_aris from "../file/Aris_Trisnawan.pdf";
+import React from 'react';
+import aris from '../images/aris.png';
+import cv_aris from '../file/Aris_Trisnawan.pdf';
 
 export default function AboutComponent() {
   return (
@@ -83,6 +83,14 @@ export function ExperienceComponent() {
           </div>
           <div>
             <p>Frontend Developer 2020</p>
+          </div>
+        </div>
+        <div className="flex flex-row justify-between pb-3  text-lg">
+          <div>
+            <p>PT Infomedia Solusi Humanika</p>
+          </div>
+          <div>
+            <p>Now</p>
           </div>
         </div>
       </div>

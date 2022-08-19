@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import tasty from "../images/tasty.PNG";
-import workout from "../images/workout.PNG";
-import shop from "../images/shop.PNG";
-import cardlist from "../images/cardlist.PNG";
-import restaurant from "../images/restaurant.PNG";
+import React, { useState } from 'react';
+import tasty from '../images/tasty.PNG';
+import workout from '../images/workout.PNG';
+import shop from '../images/shop.PNG';
+import cardlist from '../images/cardlist.PNG';
+import restaurant from '../images/restaurant.PNG';
+import lp from '../images/lp.PNG';
+import { getLCP } from 'web-vitals';
 
 export default function ProjectComponent() {
   return (
@@ -25,81 +27,97 @@ export function PortofolioComponent() {
     porto: [
       {
         id: 1,
-        nama: "Tasty Food",
+        nama: 'Tasty Food',
         gambar: `${tasty}`,
-        url: "https://tasty-food-kappa.vercel.app/",
+        url: 'https://tasty-food-kappa.vercel.app/',
         tools: [
           {
             id: 1,
-            nama: "reactjs",
+            nama: 'reactjs',
           },
           {
             id: 2,
-            nama: "tailwindcss",
+            nama: 'tailwindcss',
           },
         ],
       },
       {
         id: 2,
-        nama: "Fitness Landing Page",
+        nama: 'Fitness Landing Page',
         gambar: `${workout}`,
-        url: "https://fitness-landing-page.vercel.app/",
+        url: 'https://fitness-landing-page.vercel.app/',
         tools: [
           {
             id: 1,
-            nama: "reactjs",
+            nama: 'reactjs',
           },
           {
             id: 2,
-            nama: "tailwindcss",
+            nama: 'tailwindcss',
           },
         ],
       },
       {
         id: 3,
-        nama: "Online Shop Landing Page",
+        nama: 'Online Shop Landing Page',
         gambar: `${shop}`,
-        url: "https://online-shop-zeta.vercel.app/",
+        url: 'https://online-shop-zeta.vercel.app/',
         tools: [
           {
             id: 1,
-            nama: "reactjs",
+            nama: 'reactjs',
           },
           {
             id: 2,
-            nama: "tailwindcss",
+            nama: 'tailwindcss',
           },
         ],
       },
       {
         id: 4,
-        nama: "Card List",
+        nama: 'Card List',
         gambar: `${cardlist}`,
-        url: "https://tailwind-cardlist.vercel.app/",
+        url: 'https://tailwind-cardlist.vercel.app/',
         tools: [
           {
             id: 1,
-            nama: "reactjs",
+            nama: 'reactjs',
           },
           {
             id: 2,
-            nama: "tailwindcss",
+            nama: 'tailwindcss',
           },
         ],
       },
       {
         id: 5,
-        nama: "Restaurant Menu",
+        nama: 'Restaurant Menu',
         gambar: `${restaurant}`,
-        url: "https://menu-restaurant-mu.vercel.app/",
+        url: 'https://menu-restaurant-mu.vercel.app/',
         tools: [
           {
             id: 1,
-            nama: "reactjs",
+            nama: 'reactjs',
           },
           {
             id: 2,
-            nama: "tailwindcss",
+            nama: 'tailwindcss',
+          },
+        ],
+      },
+      {
+        id: 6,
+        nama: 'Landing Page',
+        gambar: `${lp}`,
+        url: 'https://test-weekend.vercel.app/',
+        tools: [
+          {
+            id: 1,
+            nama: 'reactjs',
+          },
+          {
+            id: 2,
+            nama: 'tailwindcss',
           },
         ],
       },
