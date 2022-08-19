@@ -61,12 +61,20 @@ export function ExperienceComponent() {
         <p className=" text-lg">
           Here's a brief rundown of my most recent experiences:
         </p>
-        <div className="flex flex-row justify-between py-3 text-lg">
+        <div className="flex flex-row justify-between py-3  text-lg">
+          <div>
+            <p>PT Infomedia Solusi Humanika</p>
+          </div>
+          <div>
+            <p>Now</p>
+          </div>
+        </div>
+        <div className="flex flex-row justify-between pb-3 text-lg">
           <div>
             <p>Telkom University</p>
           </div>
           <div>
-            <p>Frontend Developer 2021 -</p>
+            <p>Frontend Developer 2021 - 2022</p>
           </div>
         </div>
         <div className="flex flex-row justify-between pb-3 text-lg">
@@ -83,14 +91,6 @@ export function ExperienceComponent() {
           </div>
           <div>
             <p>Frontend Developer 2020</p>
-          </div>
-        </div>
-        <div className="flex flex-row justify-between pb-3  text-lg">
-          <div>
-            <p>PT Infomedia Solusi Humanika</p>
-          </div>
-          <div>
-            <p>Now</p>
           </div>
         </div>
       </div>
